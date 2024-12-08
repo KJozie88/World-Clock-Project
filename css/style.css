@@ -1,12 +1,15 @@
 body {
     background-color: rgb(246, 208, 255);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/152/312/original/pexels-pixabay-259447.jpg?1733674154");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 60px auto;
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(252, 252, 252, 0.5);
+  backdrop-filter: blur(2px);
   padding:50px ;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
