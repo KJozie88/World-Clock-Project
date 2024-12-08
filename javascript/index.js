@@ -57,11 +57,11 @@ cityTimeZone = moment.tz.guess();
                 <small>${cityTime.format("A")}</small>
             </div>
         </div>
+        <a href="/">All cities</a>
     `;
 }
 
 let citiesSelectElement = document.querySelector("#city");
-
 citiesSelectElement.addEventListener("change", updateCity);
 
 }, 1000);
