@@ -67,6 +67,12 @@ select {
 
 
 footer {
+     max-width: 600px;
+   background-color: rgb(252, 252, 252, 0.5);
+  backdrop-filter: blur(2px);
     text-align: center;
     font-size: 18px;
+      margin: 60px auto;
+        padding:10px 50px ;
+        border-radius: 10px;
 color: rgba(0,0,0,0.6);}
